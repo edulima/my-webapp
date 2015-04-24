@@ -1,0 +1,27 @@
+{
+  "name": "my-webapp",
+  "version": "1.0.0",
+  "description": "firt app using node and Stormpath",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edulima/my-webapp.git"
+  },
+  "author": "edulima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edulima/my-webapp/issues"
+  },
+  "homepage": "https://github.com/edulima/my-webapp",
+  "dependencies": {
+    "csurf": "^1.8.0",
+    "express": "^4.12.3",
+    "express-stormpath": "^1.0.4",
+    "forms": "^1.1.1",
+    "jade": "^1.9.2",
+    "xtend": "^4.0.0"
+  }
+}
